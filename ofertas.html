@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css"> 
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>GDT Cyber - Ofertas Especiais</title>
+</head>
+<body>
+
+    <header class="main-header">
+        <a href="tela-inicial.html" class="logo-link">
+            <img src="img/logo.png" alt="GDT Cyber Logo">
+        </a>
+
+        <div class="search-bar">
+            <input type="text" placeholder="A Gente tem tudo aqui! É So digitar aqui e descubrir o nosso mundo">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+
+        <nav class="action-icons">
+            <a href="tela_login.html"><i class="fas fa-user"></i></a>
+            <a href="carrinho.html" class="cart-link">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </a>
+        </nav>
+
+        <button class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <nav class="categories-nav" id="categories-nav">
+        <ul>
+            <li><a href="#">PC Gamer</a></li>
+            <li><a href="#">Placa de Vídeo</a></li>
+            <li><a href="#">Processadores</a></li>
+            <li><a href="monitores.html">Monitores</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+        </ul>
+    </nav>
+
+    <main class="product-grid-container">
+        <h2>MEGA OFERTAS GDT CYBER</h2>
+
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <img src="img/pc completo.png" alt="PC Gamer em Oferta">
+                <h3>PC Gamer RTX 3060 - 16GB</h3>
+                <p style="text-decoration: line-through; color: #777; font-size: 1em;">De: R$ 5.999,00</p>
+                <p class="price" style="color: #ff4d4d; font-size: 1.8em;">Por: R$ 4.499,00</p>
+                <button class="add-to-cart">APROVEITE A OFERTA</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/placa de video com 8gb.png" alt="Placa de Vídeo em Oferta">
+                <h3>Placa de Vídeo GTX 1660</h3>
+                <p style="text-decoration: line-through; color: #777; font-size: 1em;">De: R$ 1.500,00</p>
+                <p class="price" style="color: #ff4d4d; font-size: 1.8em;">Por: R$ 1.150,00</p>
+                <button class="add-to-cart">APROVEITE A OFERTA</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/vecteezy_3d-monitor-curved_12177419.png" alt="Monitor em Oferta">
+                <h3>Monitor Gamer Curvo 144Hz</h3>
+                <p style="text-decoration: line-through; color: #777; font-size: 1em;">De: R$ 1.800,00</p>
+                <p class="price" style="color: #ff4d4d; font-size: 1.8em;">Por: R$ 1.499,00</p>
+                <button class="add-to-cart">APROVEITE A OFERTA</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="img/35b61e_Ryzen-9-5950x-1.png" alt="Processador em Oferta">
+                <h3>Processador Intel Core i5 12ª</h3>
+                <p style="text-decoration: line-through; color: #777; font-size: 1em;">De: R$ 1.300,00</p>
+                <p class="price" style="color: #ff4d4d; font-size: 1.8em;">Por: R$ 999,00</p>
+                <button class="add-to-cart">APROVEITE A OFERTA</button>
+            </div>
+
+            </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
